@@ -1,7 +1,7 @@
 #5. Зчитати JSON-файл з масивом користувачів та вивести інформацію про них.
 require 'json'
 
-file = File.read('users.json')
+file = File.read('users and age.json')
 users = JSON.parse(file)
 
 total_age = 0
